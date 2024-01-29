@@ -1,18 +1,16 @@
-# BragonNft Contract
+# Bragon Nft Contract
 
-## Overview
+## :scroll:Overview
 
 The `DragonNft` contract is a Solidity smart contract that implements an ERC721-compatible non-fungible token (NFT) standard with URI storage. This contract allows users to mint dragon-themed NFTs, and it includes functionalities such as minting, airdropping, and claiming yield and gas rewards using the `IBlast` interface.
 
-## Contract Structure
-
-### Contract Inheritance
-
-The `DragonNft` contract inherits from both the `ERC721URIStorage` and `Ownable` contracts, providing ERC721 token functionality and ownership control over the contract.
+## :b:Blast technology usage
 
 ### Enums
 
 #### `YieldMode`
+
+We can switch between different modes our contract will generate $. Damn, we can leave all ETH from mint and just farm 4% ROI :money_mouth:. **Blast** is a blast! 
 
 - **AUTOMATIC:** Automatic yield mode.
 - **VOID:** Void yield mode.
@@ -20,8 +18,16 @@ The `DragonNft` contract inherits from both the `ERC721URIStorage` and `Ownable`
 
 #### `GasMode`
 
+The same goes with gas modes. As you know, all gas that you spend while interacting with our NFTs is claimable! Thus, we may think about a good usage of this technology in future!
+
 - **VOID:** Void gas mode.
 - **CLAIMABLE:** Claimable gas mode.
+
+## Contract Structure
+
+### Contract Inheritance
+
+The `DragonNft` contract inherits from both the `ERC721URIStorage` and `Ownable` contracts, providing ERC721 token functionality and ownership control over the contract.
 
 ### Structs
 

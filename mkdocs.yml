@@ -35,6 +35,8 @@ extra:
       link: https://github.com/NickoMenty
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/BlastDragons
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/bragons
 
 markdown_extensions:
   - pymdownx.highlight:

@@ -1,6 +1,6 @@
 # Bragon Nft Arena Contract
 
-## Overview
+## :scroll:Overview
 
 The `NFTBattleArena` contract is a Solidity smart contract that facilitates battles between NFTs (Non-Fungible Tokens) listed for battle. The contract supports various functionalities such as listing NFTs, starting battles, determining winners based on specified attributes, and claiming rewards. Additionally, it incorporates the `IBlast` interface for handling yield and gas-related operations.
 
