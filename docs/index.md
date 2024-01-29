@@ -1,7 +1,5 @@
 # RoadMap
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
 <figure markdown>
   ![Image title](https://ipfs.io/ipfs/QmcLEDJtHNw2How2SkmDxWpvKSa5aNDiTkR3PiikCNDaty){ align=left; width="300"}
   <figcaption>Something is comming...</figcaption>
